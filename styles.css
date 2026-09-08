@@ -1,0 +1,121 @@
+
+h1 {
+    color: black;
+    border-bottom: 3px solid #734D80;
+    font-family: "Allura", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5rem;
+}
+
+h3{
+font-size: 3rem;
+font-family: "Cormorant", serif;
+font-optical-sizing: auto;
+font-weight: 200;
+font-style: italic;
+margin: 0.7rem 3rem;
+text-decoration: underline #734D80;
+text-underline-offset: 10px;
+font-optical-sizing: auto;
+text-align: center;
+}
+
+
+body {
+    font: 1.2em / 1.5 system-ui;
+    width: 500px;
+    margin: 0 auto;
+    font-family: "Comorant", serif;
+    font-weight: 200;
+    font-optical-sizing: auto;
+    background-color: #F3F6EF;
+    position: relative;
+    overflow: auto;
+    text-align: justify; 
+}
+
+div.resume-intro{
+    background-color: #E37C9B;
+    border-radius: 7px;
+    padding: 15px 25px 25px;
+    text-align: center;
+}
+
+div.contact-info{
+background-color: #E37C9B;
+border-radius: 7px;
+padding: 10px 15px 15px;
+margin-bottom: 10%;
+text-align: center;
+}
+
+p#job-title{
+    font-size: 1.5rem;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+}
+
+p#sample-copy{
+    text-align: center;
+}
+
+p#email{
+    text-align: center;
+}
+
+p#find-me{
+    text-align: center;
+}
+
+a {
+    color: #47265d;
+}
+
+a:hover,
+a:focus {
+    color: #a05890;
+    text-decoration: none;
+    border-radius: 7px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+    border-radius: 7px;
+    width: 250px;
+    background-color: #0C9FA5;
+    display: block;
+
+}
+ul.work-samples {
+    margin-left: 100px;
+}
+
+ul.contact-info{
+    margin-left: 175px;
+    width: 120px;
+}
+
+li{
+    border-bottom: 1px solid #555555;
+}
+
+li:last-child{
+    border-bottom: none;
+}
+
+li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: #231320;
+    background-color: #dbbdd4;
+}
