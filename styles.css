@@ -1,35 +1,63 @@
 
 h1 {
-    color: black;
-    border-bottom: 3px solid #734D80;
+    color: #231320;
+    border-bottom: 3px solid #231320;
+    margin-bottom: 40px;
+    margin-top: 5px;
     font-family: "Allura", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 5rem;
+    font-size: 6rem;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    font-optical-sizing: auto;
 }
 
 h3{
-font-size: 3rem;
-font-family: "Cormorant", serif;
+font-size: 3.5rem;
+font-family: "Cormorant Infant", cursive;
 font-optical-sizing: auto;
-font-weight: 200;
+font-weight: 600;
 font-style: italic;
-margin: 0.7rem 3rem;
-text-decoration: underline #734D80;
+margin-top: 90px;
+margin-bottom: 30px;
+text-decoration: 3px underline #231320;
 text-underline-offset: 10px;
-font-optical-sizing: auto;
 text-align: center;
 }
 
+#image{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    float: inline-start;
+    object-position: top 30% right 10px;
+    border-bottom-right-radius: 35%;
+    border-bottom-left-radius: 27%;
+    border-top-right-radius: 60%;
+    shape-outside: margin-box;
+}
+
+#image-star{
+    height: 10%;
+    width: 10%;
+    object-fit: contain;
+    border-bottom-right-radius: 5%;
+    padding-inline-start: 10px;
+    display: flex;
+    margin: 0px 55px 10px;
+    shape-outside: margin-box;
+
+}
 
 body {
-    font: 1.2em / 1.5 system-ui;
-    width: 500px;
+    font: 1.4em / 1.5 system-ui;
+    width: 700px;
     margin: 0 auto;
-    font-family: "Comorant", serif;
+    font-family: "Comorant", sans;
     font-weight: 200;
     font-optical-sizing: auto;
-    background-color: #F3F6EF;
+    background-color: #F9E6FF;
     position: relative;
     overflow: auto;
     text-align: justify; 
@@ -38,7 +66,8 @@ body {
 div.resume-intro{
     background-color: #E37C9B;
     border-radius: 7px;
-    padding: 15px 25px 25px;
+    border: 5px solid #822870;
+    padding: 8px 25px 25px;
     text-align: center;
 }
 
@@ -48,34 +77,51 @@ border-radius: 7px;
 padding: 10px 15px 15px;
 margin-bottom: 10%;
 text-align: center;
+border: 5px solid #822870;
 }
 
 p#job-title{
-    font-size: 1.5rem;
+    font-size: 2rem;
+    font-family: "Cormorant Infant", cursive;
     font-style: italic;
+    font-weight: 600;
     text-decoration: underline;
-    text-align: center;
+    text-underline-offset: 10px;
+    text-align: justify;
 }
 
 p#sample-copy{
     text-align: center;
+    font-size: 23px;
+    font-weight: 550;
 }
 
 p#email{
     text-align: center;
+    font-size: 22px;
+    font-weight: 600;
 }
 
 p#find-me{
     text-align: center;
+    font-size: 22px
+}
+
+p.resume-copy{
+    font-size: 22px;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 600;
 }
 
 a {
     color: #47265d;
+
 }
 
 a:hover,
 a:focus {
-    color: #a05890;
+    color: #6A407D;
     text-decoration: none;
     border-radius: 7px;
 }
@@ -84,24 +130,25 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    border: 1px solid black;
+    border: 3px solid #0d445f;
     border-radius: 7px;
-    width: 250px;
+    width: fit-content;
     background-color: #0C9FA5;
     display: block;
 
 }
 ul.work-samples {
-    margin-left: 100px;
+    margin-left: 190px;
+    margin-bottom: 50px;
 }
 
 ul.contact-info{
-    margin-left: 175px;
+    margin-left: 273px;
     width: 120px;
 }
 
 li{
-    border-bottom: 1px solid #555555;
+    border-bottom: 3px solid #0d445f;
 }
 
 li:last-child{
@@ -117,5 +164,33 @@ li a {
 
 li a:hover{
     color: #231320;
-    background-color: #dbbdd4;
+    background-color: #80C7D1;
 }
+
+a.resume-btn{
+        margin-left: 276px;
+        padding: 10px 16px;
+        border: 3px solid #0d445f;
+        border-radius: 7px;
+        width: fit-content;
+        background-color: #0C9FA5;
+        display: block;
+        color: black;
+        text-decoration: none;
+}
+
+ a#resume:hover{
+        color: #231320;
+        background-color: #80C7D1;
+}
+/* 
+background options
+#DCD6FF
+#F9E6FF 
+#F3F6EF
+#F3F6EF
+#F8ECDF
+#E2B2B2
+#FFFFFA
+
+*/

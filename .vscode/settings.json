@@ -1,3 +1,6 @@
 {
-    "accessibility.signalOptions.volume": 0
+    "accessibility.signalOptions.volume": 0,
+    "html.hover.references": false,
+    "css.hover.references": false,
+    "editor.hover.sticky": false
 }
