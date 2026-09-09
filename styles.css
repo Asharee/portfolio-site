@@ -38,17 +38,6 @@ text-align: center;
     shape-outside: margin-box;
 }
 
-#image-star{
-    height: 10%;
-    width: 10%;
-    object-fit: contain;
-    border-bottom-right-radius: 5%;
-    padding-inline-start: 10px;
-    display: flex;
-    margin: 0px 55px 10px;
-    shape-outside: margin-box;
-
-}
 
 body {
     font: 1.4em / 1.5 system-ui;
